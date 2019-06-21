@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+.container-main {
+    text-align: center;
+}
+.container-survey {
+    width: 50%;
+    top: 50px;
+    border-bottom: 50px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 2%;
+}
+p {
+    color: white;
+}
