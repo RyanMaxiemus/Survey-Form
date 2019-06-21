@@ -1,17 +1,21 @@
 body {
-    background-color: white;
-}
-.container-main {
+    background-color: grey;
+  }
+  .container-main {
     text-align: center;
-}
-.container-survey {
+  }
+  .container-survey {
     width: 50%;
     top: 50px;
     border-bottom: 50px;
-    background-color: black;
+    background-color: blue;
     display: inline-block;
     border-radius: 2%;
-}
-p {
-    color: white;
-}
+  }
+  p {
+    color: black;
+  }
+  #number {
+    height: 6px;
+    width: 225px;
+  }
