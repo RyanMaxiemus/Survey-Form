@@ -1,22 +1,37 @@
 body {
-  background-color: #1d8a99;
-  color: #38aecc;
+    background-color: #1d8a99;
+    color: #38aecc;
 }
 .container-main {
-  text-align: center;
+    text-align: center;
 }
 .container-survey {
-  width: 60%;
-  top: 50px;
-  border-bottom: 50px;
-  background-color: #022f40;
-  display: inline-block;
-  border-radius: 2%;
-  color: #38aecc;
+    width: 75%;
+    top: 50px;
+    background-color: #022f40;
+    display: inline-block;
+    border-radius: 2%;
+    font-weight: bold;
 }
-p {
+#label-column {
+    display: block;
+    float: left;
+    width: 48%;
+    text-align: right;
+    line-height: 3;
+    margin-right: 2%;
+}
+#input-column {
+    float: right;
+    width: 50%;
+    text-align: left;
+    line-height: 3;
 }
 #number {
-  height: 6px;
-  width: 225px;
+    height: 6px;
+    width: 225px;
+}
+#dropdown {
+    height: 33px;
+    width: 245px;
 }
