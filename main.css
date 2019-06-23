@@ -1,21 +1,22 @@
 body {
-    background-color: grey;
-  }
-  .container-main {
-    text-align: center;
-  }
-  .container-survey {
-    width: 50%;
-    top: 50px;
-    border-bottom: 50px;
-    background-color: blue;
-    display: inline-block;
-    border-radius: 2%;
-  }
-  p {
-    color: black;
-  }
-  #number {
-    height: 6px;
-    width: 225px;
-  }
+  background-color: #1d8a99;
+  color: #38aecc;
+}
+.container-main {
+  text-align: center;
+}
+.container-survey {
+  width: 60%;
+  top: 50px;
+  border-bottom: 50px;
+  background-color: #022f40;
+  display: inline-block;
+  border-radius: 2%;
+  color: #38aecc;
+}
+p {
+}
+#number {
+  height: 6px;
+  width: 225px;
+}
