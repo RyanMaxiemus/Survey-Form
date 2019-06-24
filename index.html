@@ -85,6 +85,7 @@
               Sure
             </div>
           </div>
+          <!-- Like Row -->
           <div id="like-row" class="row">
             <div class="col-1">
               <label id="recomendation-label" for="like"
@@ -100,86 +101,75 @@
               </select>
             </div>
           </div>
+          <!-- Improve Row -->
           <div id="improve-row" class="row">
             <div class="col-1">
-              <label id="improve-label" for="improve"
-                >What do you like most about FCC? <br />
+              <label id="improve-label">What are some things to be improved? <br />
                 (Check all that apply)
               </label>
             </div>
             <div class="col-2">
               <input
-                id="improve"
                 type="checkbox"
                 name="improve1"
                 value="front-end"
               />
               Front-End Projects<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve2"
                 value="back-end"
               />
               Back-End Projects<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve3"
                 value="data-visualization"
               />
               Data Visualization<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve4"
                 value="challenges"
               />
               Challenges<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve5"
                 value="open-source"
               />
               Open Source Community<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve6"
                 value="gitter-help"
               />
               Gitter Help Rooms<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve7"
                 value="videos"
               />
               Videos<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve8"
                 value="meetups"
               />
               City Meetups<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve9"
                 value="wiki"
               />
               Wiki<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve10"
                 value="forum"
               />
               Forum<br />
               <input
-                id="improve"
                 type="checkbox"
                 name="improve11"
                 value="courses"
@@ -187,6 +177,20 @@
               Additional Courses<br />
             </div>
           </div>
+          <!-- Additional Comments Row -->
+          <div id="comments-row" class="row">
+            <div class="col-1">
+              <label id="comments-label" 
+                     for="comments">Additional Comments:</label>
+            </div>
+            <div class="col-2">
+              <textarea id="comments" 
+                        placeholder="Enter your comments here..."></textarea>
+            </div>
+          </div>
+          <!-- Submit Button -->
+          <input type="submit" 
+                 id="submit-button">
         </form>
       </div>
     </div>
