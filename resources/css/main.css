@@ -1,6 +1,6 @@
 body {
   background-color: #1d8a99;
-  color: #38aecc;
+  color: #022f40;
 }
 .container-main {
   text-align: center;
@@ -32,13 +32,22 @@ body {
   width: 50%;
   text-align: left;
 }
+#name {
+  width: 60%;
+}
+#email {
+  width: 60%;
+}
 #number {
   height: 6px;
-  width: 228px;
+  width: 60%;
 }
 #dropdown {
   height: 33px;
-  width: 245px;
+  width: 60%;
+}
+#like {
+  width: 60%;
 }
 #improve-row {
   height: 230px;
@@ -48,7 +57,7 @@ body {
   height: 75px;
 }
 #comments {
-  width: 245px;
+  width: 60%;
 }
 #submit {
   height: 40px;
@@ -56,5 +65,5 @@ body {
 }
 #page-footer {
   margin: 2%;
-  font-weight: bold
+  font-weight: bold;
 }
