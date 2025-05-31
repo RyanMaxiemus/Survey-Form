@@ -43,11 +43,8 @@ body {
   height: 6px;
   width: 60%;
 }
-#dropdown {
+.dropdown-styling {
   height: 33px;
-  width: 60%;
-}
-#like {
   width: 60%;
 }
 #improve-row {
